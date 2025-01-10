@@ -19,10 +19,8 @@
 
 - **React**: 사용자 인터페이스 구성
 - **Vite**: 빠른 빌드 도구
-  - `@vitejs/plugin-react`: Fast Refresh를 위한 Babel 사용
-  - `@vitejs/plugin-react-swc`: Fast Refresh를 위한 SWC 사용
 - **OMDb API**: 영화 데이터를 제공
-- **Bootstrap**: UI 구성 (스타일링)
+- **Bootstrap**: 스타일링
 - **React-Indiana-Drag-Scroll**: 수평 스크롤 기능 구현
 
 ## 🎥 주요 컴포넌트
