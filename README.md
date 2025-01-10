@@ -29,3 +29,19 @@
 - **MovieList.jsx**: 영화 목록을 출력하며, 각 영화에 선호작 추가/삭제 기능을 제공합니다.
 - **MovieListHeading.jsx**: 영화 목록의 제목을 출력합니다.
 - **SearchBox.jsx**: 사용자가 영화 제목을 검색할 수 있는 입력 필드를 제공합니다.
+
+## ⚠️ 빌드 오류 및 해결 방법
+
+### Mixed Content 문제 해결
+
+Mixed Content는 HTTPS 사이트에서 HTTP 사이트를 요청할 때 발생하는 보안 문제입니다.
+이 문제를 해결하기 위해, **index.html** 파일에 `Content-Security-Policy` 메타 태그를 추가했습니다.
+
+#### 해결 방법
+
+1. **index.html** 파일에 `Content-Security-Policy` 메타 태그를 추가, HTTP 요청을 자동으로 HTTPS로 업그레이드하도록 설정했습니다.
+
+<meta
+  http-equiv="Content-Security-Policy"
+  content="upgrade-insecure-requests"
+/>
