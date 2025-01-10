@@ -13,7 +13,7 @@
 
 이 프로젝트는 **Netlify**에 배포되었습니다. 아래 링크에서 사이트를 확인할 수 있습니다.
 
-- [영화 검색 및 선호작 관리 웹앱 배포 링크](https://sparkling-malasada-c8ff3d.netlify.app/)
+- [movie-app 링크](https://sparkling-malasada-c8ff3d.netlify.app/)
 
 ## 🧑‍💻 기술 스택
 
